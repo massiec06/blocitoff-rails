@@ -1,0 +1,19 @@
+@import "bootstrap";
+
+@import "welcome";
+
+.pull-right {
+   padding: 0px 10px 0px 0px;
+}
+
+.main-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+}
+
+.body-fonts {
+  font-size: 22px;
+  font-weight: 200;
+font-family: "Times New Roman", Times, serif;
+}
