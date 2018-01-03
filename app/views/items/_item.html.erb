@@ -3,6 +3,8 @@
    <h4 class="media-heading">
      <%= item.name %>
    </h4>
+   <small><%=distance_of_time_in_words(Time.now, item.created_at.to_date + 7)%> days left to complete this task.</small>
+   <h6>Item created: <%=item.created_at%></h6>
    <%= link_to "Delete", [item.user, item], method: :delete, class: 'btn' %>
  </div>
 </div>
